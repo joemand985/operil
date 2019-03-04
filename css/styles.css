@@ -1,0 +1,298 @@
+/*
+
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    src: url('../fonts/gotham/Gotham-ExtraLight.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: "MuseoSans-300";
+    src: url('../fonts/MuseoSans-300.otf');
+}
+
+@font-face {
+    font-family: "MuseoSans_1";
+    src: url('../fonts/MuseoSans_1.otf');
+}
+
+@font-face {
+    font-family: "MuseoSans_0";
+    src: url('../fonts/MuseoSans_0.otf');
+}*/
+
+
+html {
+    background: url("../images/Background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body, html {
+    min-height: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: MuseoSans-300, sans-serif;
+}
+
+
+#wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #00447F;
+    border-top: none;
+    box-shadow: 12px 0 18px -10px rgba(50, 50, 50, 0.2), -12px 0 18px -10px rgba(50, 50, 50, 0.2);
+}
+
+#container {
+    position: relative;
+    background-size: cover;
+    height: 860px;
+   /* border: 2px solid red;*/
+}
+
+#main-content {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 550px;
+    height: 725px;
+    /*text-align: center;*/
+    color: #00467D;
+    background-size: 440px;
+    background-repeat: no-repeat;
+    background-position: -30% 45%;
+    border: 1px solid black;
+}
+
+#headline {
+    width: 96%;
+    margin: 2%;
+}
+
+.headline_mobile {
+    display: none;
+}
+
+#kapi_packshots {
+    width: 90%;
+    /*border: 1px solid green;*/
+    position: absolute;
+    bottom: 40px;
+    left: 1px;
+    z-index: 1;
+}
+
+#operili {
+    width: 50%;
+ /*   border: 1px solid yellow;*/
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    bottom: 40px;
+}
+
+#pecat {
+    width: 20%;
+    position: absolute;
+    right: 10px;
+    bottom: 250px;
+    z-index: 3;
+}
+
+#deluje {
+    width: 50%;
+    position: absolute;
+    right: -160px;
+    bottom: 150px;
+    z-index: 4;
+}
+
+.note {
+    font-size: 12px;
+    border: 1px solid blue;
+    width: 150px;
+    float: left;
+    margin-left: 5px;
+  /*  position: absolute;
+    bottom: 0px;*/
+}
+
+.simplebar-content{
+    padding-right: 14px !important;
+}
+
+
+/*
+#packshot{
+    visibility: hidden;
+    width: 100px;       
+}
+
+*/
+
+#operil-description {
+    position: absolute;
+    right: 40px;
+    bottom: 100px;
+    width: 570px;
+    height: 625px;
+    box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: white;
+    color: #00457f;
+    font-family: MuseoSans-300, sans-serif;
+    color: black;
+    z-index: 100;
+}
+
+#operil-description p {
+    text-align: justify;
+}
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #083d73;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Gotham-ExtraLight', "Open Sans";
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media (max-height: 768px) {
+      EDIT(768) CSS that should be displayed if width is equal to or less than 800px goes here 
+
+#wrapper {
+        zoom: 0.90;
+        -moz-transform: scale(0.70);
+        -moz-transform-origin: 0 0;
+    }
+}
+
+
+
+
+
+
+.blue {
+    color: blue;
+}
+
+ul {
+    margin: 1px;
+}
+
+/*table, tr, td {
+    border: 1px solid black;
+}*/
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+}
+
+th {
+    vertical-align: text-top;
+    text-align: left;
+}
+
+table img {
+    width: 100px;
+}
+
+td {
+    width: auto;
+}
+
+/*td:first-of-type, td:nth-of-type(3) {
+    background-color: red;
+    
+}*/
+
+td:nth-of-type(2), td:nth-of-type(4) {
+    width: 30%;
+}
+
+
+
+/*MOBILE LAYOUT*/
+
+@media (max-width: 768px) {
+
+    #container {
+        height: 1000px;
+    }
+
+    #main-content {
+        visibility: hidden;
+    }
+
+    #wrapper {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: none;
+        box-shadow: 12px 0 18px -10px rgba(50, 50, 50, 0.2), -12px 0 18px -10px rgba(50, 50, 50, 0.2);
+    }
+
+    #operil-description {
+        margin: 0px;
+        margin-bottom: 120px;
+        padding: 0;
+        width: 90%;
+        height: 600px; /*!!!*/
+        border: 3px solid #00457f;
+        box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
+        border-radius: 5px;
+/*        font-family: "Open Sans", sans-serif;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #headline {
+        display: none;
+    }
+
+    .headline_mobile {
+        display: block;
+    }
+
+    .h_first {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+        background: #253e79;
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #f4f3f0;
+        font-size: 34px;
+        font-family: helvth;
+        line-height: 40px;
+    }
+
+}
