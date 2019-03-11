@@ -70,7 +70,7 @@ body {
     background-size: 440px;
     background-repeat: no-repeat;
     background-position: -30% 45%;
-    border: 1px solid black;
+ /*   border: 1px solid black;*/
 }
 
 #headline {
@@ -84,20 +84,20 @@ body {
 
 #kapi_packshots {
     width: 90%;
-    /*border: 1px solid green;*/
+/*    border: 1px solid green;*/
     position: absolute;
-    bottom: 40px;
+    bottom: 75px;
     left: 1px;
     z-index: 1;
 }
 
 #operili {
-    width: 50%;
-    border: 1px solid yellow;
+    width: 54%;
+/*    border: 1px solid yellow;*/
     position: absolute;
     z-index: 2;
-    left: 100px;
-    bottom: 40px;
+    left: 97px;
+    bottom: 45px;
 }
 
 #pecat {
@@ -117,26 +117,37 @@ body {
 }
 
 .nts {
-    border: 4px solid green;
-    width: 100%;
+    border: 1px solid green;
+    width: 80%;
     height: 40px;
     position: absolute;
     bottom: 1px;
-    left: 1px;
+    left: 10%;
     z-index: 1000;
+    /*padding-top: 2px;*/
+}
+
+.nts > img {
+    height: 25px;
+   /* margin: auto;*/
 }
 
 #text1 {
-    margin-left: 10%;
-    width: 20%;
+    /*margin-left: 10%;*/
+   /* width: 25%;*/
+  /* height: 30px;*/
 }
 
 #text2 {
-    width: 20%;
+  /*  margin-left: 2%;*/
+   /* width: 26%;*/
+  /* height: 30px;*/
 }
 
 #text3 {
-    width: 30%;
+    /*width: 30%;*/
+   /* margin-left:;*/
+   /* height: 30px;*/
 }
 
 .note {
@@ -189,6 +200,25 @@ ul {
 }
 
 
+#sandoz-logo {
+    width: 40%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#podaci {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    width: 570px;
+    height: 98px;
+    border: 1px solid green;
+}
+
+#left {
+    width: 30%;
+}
 
 footer {
     width: 100%;
@@ -196,17 +226,24 @@ footer {
     background: #083d73;
     padding: 10px 0;
     color: white;
-    font-family: 'Gotham-ExtraLight', "Open Sans";
+    font-family: "webfontregular", "Open Sans", sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 24px;
     text-align: center;
+
+    position: relative;
+    clear: both;
 }
 
-footer p {
+.footer-note {
+    width: 80%;
+    margin: auto;
+}
+/*footer p {
     width: 50%;
     margin: 0 auto;
     padding: 0;
-}
+}*/
 
 @media (max-height: 768px) {
       EDIT(768) CSS that should be displayed if width is equal to or less than 800px goes here 
