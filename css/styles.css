@@ -73,6 +73,11 @@ body {
  /*   border: 1px solid black;*/
 }
 
+#head {
+    border: 1px solid black;
+}
+
+
 #headline {
     width: 96%;
     margin: 2%;
@@ -133,18 +138,25 @@ body {
 }
 
 #text1 {
+
+    /*position: relative;
+    left: 0;*/
     /*margin-left: 10%;*/
    /* width: 25%;*/
   /* height: 30px;*/
 }
 
 #text2 {
+
   /*  margin-left: 2%;*/
    /* width: 26%;*/
   /* height: 30px;*/
 }
 
 #text3 {
+    /*position: relative;
+    right: 0px;
+    bottom: 0;*/
     /*width: 30%;*/
    /* margin-left:;*/
    /* height: 30px;*/
@@ -175,6 +187,7 @@ body {
 */
 
 #operil-description {
+ /*   overflow-y: scroll;*/
     position: absolute;
     right: 40px;
     bottom: 100px;
@@ -187,11 +200,15 @@ body {
     font-family: MuseoSans-300, sans-serif;
     color: black;
     z-index: 100;
+    text-align: justify;
+    /*scroll bar*/
+
+/*scroll bar end*/
 }
 
-#operil-description p {
-    text-align: justify;
-}
+
+
+
 
 ul {
     list-style-position: inside;
@@ -214,10 +231,20 @@ ul {
     width: 570px;
     height: 98px;
     border: 1px solid green;
+    font-size: 13px;
+    color: #636363;
 }
 
 #left {
-    width: 30%;
+    margin: 10px 0;
+    width: 50%;
+}
+
+#right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 0;
 }
 
 footer {
@@ -261,7 +288,7 @@ footer {
 
 
 .blue {
-    color: blue;
+    color: #0b69a0;
     font-weight: 900;
 }
 
@@ -310,11 +337,12 @@ td:nth-of-type(2), td:nth-of-type(4) {
 @media (max-width: 768px) {
 
     #container {
-        height: 1000px;
+        /*height: 1000px;*/
     }
 
     #main-content {
-        visibility: hidden;
+       /* visibility: hidden;*/
+       display: none;
     }
 
     #wrapper {
@@ -332,6 +360,7 @@ td:nth-of-type(2), td:nth-of-type(4) {
 
     .headline_mobile {
         display: block;
+        float: left;
     }
 
     .h_first {
@@ -343,8 +372,8 @@ td:nth-of-type(2), td:nth-of-type(4) {
     }
 
     .h_third {
-        width: 80%;
-        z-index: 1000;
+        width: 30%;
+        border: 1px solid red;
     }
 
     #operil-description {
@@ -359,6 +388,14 @@ td:nth-of-type(2), td:nth-of-type(4) {
 /*        font-family: "Open Sans", sans-serif;*/
         margin-left: auto;
         margin-right: auto;
+        clear: both;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #podaci {
+        left: 25px;
+        width: auto;
     }
 
 

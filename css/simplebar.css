@@ -32,25 +32,26 @@
 .simplebar-track {
     z-index: 99;
     position: absolute;
-    background: #b6ccdd;
-    border: 1px solid #0069a0;
-    border-radius: 25px;/*!!!*/
+    background: #e4e1e0;  /*#b6ccdd*/
+/*    border: 1px solid #0069a0;*/
+    border-radius: 25px;/*!!! 25px*/
     margin: 15px 5px;
     top: 0;
     right: 0;
     bottom: 0;
-    width: 11px;
+    width: 15px;
 }
 
 .simplebar-track .simplebar-scrollbar {
     position: absolute;
-    right: 1px;
-    border: 1px solid #00457f;
-    -webkit-border-radius: 7px;
+    right: 0;
+   /* border: 1px solid red;*/ /*#00457f*/
+
+    -webkit-border-radius: 7px; /*7px*/
     -moz-border-radius: 7px;
     border-radius: 7px;
     min-height: 10px;
-    width: 7px;
+    width: 15px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     opacity: 0;
     -webkit-transition: opacity 0.2s linear;
@@ -58,7 +59,7 @@
     -o-transition: opacity 0.2s linear;
     -ms-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
-    background: white;
+    background: #979898;
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
 }
