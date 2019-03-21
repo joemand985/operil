@@ -74,7 +74,7 @@ body {
 }
 
 #head {
-    border: 1px solid black;
+   /* border: 1px solid black;*/
 }
 
 
@@ -122,19 +122,63 @@ body {
 }
 
 .nts {
-    border: 1px solid green;
-    width: 80%;
-    height: 40px;
+   /* border: 1px solid green;*/
+    display: block;
+
+    /*width: 80%;*/
+    height: 30px;
     position: absolute;
     bottom: 1px;
     left: 10%;
     z-index: 1000;
+        margin-left: auto;
+    margin-right: auto;
     /*padding-top: 2px;*/
 }
 
+/*.nts > div {
+    height: 100%;
+    width: 30px;
+    display: inline;
+    border: 1px solid green;
+}*/
+
+/*.first {
+    height: 100%;
+    border: 1px solid green;
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+.second {
+    height: 100%;
+    border: 1px solid green;
+    width: 25%;
+    float: left;
+}
+
+.third {
+    height: 100%;
+    border: 1px solid green;
+    width: 40%;
+    float: left;
+}
+
+.nts > div {
+    font-size: .6vw;
+    font-weight: 900;
+    line-height: 1;
+    padding: 1px;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}*/
+
 .nts > img {
-    height: 25px;
-   /* margin: auto;*/
+    height: 100%;
+    display: inline;
+   /* margin: 1px;*/
 }
 
 #text1 {
@@ -147,7 +191,8 @@ body {
 }
 
 #text2 {
-
+    margin-right: auto;
+    margin-left: auto;
   /*  margin-left: 2%;*/
    /* width: 26%;*/
   /* height: 30px;*/
@@ -230,7 +275,7 @@ ul {
     right: 40px;
     width: 570px;
     height: 98px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     font-size: 13px;
     color: #636363;
 }
@@ -302,6 +347,7 @@ footer {
 
 table {
     width: 100%;
+    font-size: 12px;
 }
 
 tr {
@@ -373,7 +419,18 @@ td:nth-of-type(2), td:nth-of-type(4) {
 
     .h_third {
         width: 30%;
+       /* border: 1px solid red;*/
+    }
+
+    #head {
         border: 1px solid red;
+        overflow: auto;
+        /*position: relative;
+        clear: both;*/
+       /* width: 100%;*/
+       position: absolute;
+       top: 0;
+       z-index: 3000;
     }
 
     #operil-description {
@@ -389,7 +446,7 @@ td:nth-of-type(2), td:nth-of-type(4) {
         margin-left: auto;
         margin-right: auto;
         clear: both;
-        position: absolute;
+        position: absolute; /*absolute*/
         bottom: 0;
     }
 
