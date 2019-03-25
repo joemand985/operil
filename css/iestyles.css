@@ -1,4 +1,4 @@
-.blue {
+/*.blue {
 	filter: progid:DXImageTransform.Microsoft.gradient
 (startColorstr=#3FBBE7, endColorstr=#2E4694, GradientType=1)
 }
@@ -21,11 +21,11 @@
 .orange {
 	filter: progid:DXImageTransform.Microsoft.gradient
 (startColorstr=#FFE900, endColorstr=#E95F38, GradientType=1)
-}
+}*/
 
 
     /*ONLY FOR IE8, 7, 6...*/
-	@media \0screen\,screen\9 {
+/*	@media \0screen\,screen\9 {
 
     #dobro-je-znati {
 	position: absolute;
@@ -58,7 +58,7 @@
         border: 2px solid #E1007A;
         text-align: center;
     }
-
+*/
 
 
 #main-content {
@@ -112,7 +112,7 @@ ul {
 	position: relative;
 	left: 20px;
 
- }
+/* }
 
  #linex-code {
 	-ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
@@ -126,9 +126,9 @@ ul {
     }
 
 
-}
+}*/
 /*end all earlier*/
-
+/*
 #main-content {
 	background: none;
 }
@@ -177,6 +177,6 @@ position: absolute;
     width: 150px;
 }
 
-
+*/
 
 
