@@ -1,4 +1,6 @@
 
+/*mayerweb end*/
+
 @font-face {
     font-family: "DINPro-Regular";
     src: url('../fonts/DINPro-Regular_0.otf');
@@ -351,6 +353,7 @@ table {
 
 tr {
     width: 100%;
+    /**width: 200px;*/
 }
 
 th {
@@ -360,10 +363,12 @@ th {
 
 table img {
     width: 100%;
+    *width: 100px;
 }
 
 td {
     width: auto;
+    *width: 20%;
 }
 
 /*td:first-of-type, td:nth-of-type(3) {
@@ -375,6 +380,14 @@ td:nth-of-type(2), td:nth-of-type(4) {
     width: 30%;
     text-align: left;
 }
+
+/*td {
+    width: 25%;
+}
+
+td img {
+    width: 20%;
+}*/
 
 
 
