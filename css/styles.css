@@ -434,9 +434,9 @@ td:nth-of-type(2), td:nth-of-type(4) {
     }
 
     #operil-description {
-        margin: 0px;
+        /*margin: 0px;*/
         margin-bottom: 120px;
-        padding: 0;
+        /*padding: 0;*/
         width: 90%;
         height: 600px; /*!!!*/
         border: 3px solid #00457f;
@@ -445,14 +445,19 @@ td:nth-of-type(2), td:nth-of-type(4) {
 /*        font-family: "Open Sans", sans-serif;*/
         margin-left: auto;
         margin-right: auto;
-        clear: both;
+        /*clear: both;*/
         position: absolute; /*absolute*/
         bottom: 0;
+        left: 5%;
     }
 
     #podaci {
         left: 25px;
         width: auto;
+    }
+
+    table img {
+        width: 100%;
     }
 
 
