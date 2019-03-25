@@ -30,6 +30,11 @@ body {
     font-family: "DINPro-Regular", sans-serif;
 }
 
+sup {
+    vertical-align: super;
+    font-size: 0.6em;
+}
+
 
 #wrapper {
     width: 1200px;
@@ -454,6 +459,7 @@ td:nth-of-type(2), td:nth-of-type(4) {
     #podaci {
         left: 25px;
         width: auto;
+        font-size: 2vw;
     }
 
     table img {
@@ -468,7 +474,7 @@ td:nth-of-type(2), td:nth-of-type(4) {
         width: 100%;
         text-align: center;
         color: #f4f3f0;
-        font-size: 34px;
+        font-size: 24px;
         font-family: DINPro-Regular;
         line-height: 40px;
     }
