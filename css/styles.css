@@ -3,12 +3,16 @@
 
 @font-face {
     font-family: "DINPro-Regular";
-    src: url('../fonts/DINPro-Regular_0.otf');
+    src: url('../fonts/DINPro-Regular_0.eot');
+    src: url('../fonts/DINPro-Regular_0.eot?#iefix'),
+    url('../fonts/DINPro-Regular_0.otf');
 }
 
 @font-face {
     font-family: "DINPro-Bold";
-    src: url('../fonts/DINPro-Bold_0.otf');
+    src: url('../fonts/DINPro-Bold_0.eot');
+    src: url('../fonts/DINPro-Bold_0.eot?#iefix'),
+    url('../fonts/DINPro-Bold_0.otf');
 }
 
 
