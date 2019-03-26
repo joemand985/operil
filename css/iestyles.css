@@ -1,65 +1,3 @@
-/*.blue {
-	filter: progid:DXImageTransform.Microsoft.gradient
-(startColorstr=#3FBBE7, endColorstr=#2E4694, GradientType=1)
-}
-
-.reverse {
-    filter: progid:DXImageTransform.Microsoft.gradient
-(startColorstr=#2E4694, endColorstr=#3FBBE7, GradientType=1)
-}
-
-.purple {
-	filter: progid:DXImageTransform.Microsoft.gradient
-(startColorstr=#E1007A, endColorstr=#6C3689, GradientType=1)
-}
-
-.yellow {
-	filter: progid:DXImageTransform.Microsoft.gradient
-(startColorstr=#07ACAD, endColorstr=#D2D605, GradientType=1)
-}
-
-.orange {
-	filter: progid:DXImageTransform.Microsoft.gradient
-(startColorstr=#FFE900, endColorstr=#E95F38, GradientType=1)
-}*/
-
-
-    /*ONLY FOR IE8, 7, 6...*/
-/*	@media \0screen\,screen\9 {
-
-    #dobro-je-znati {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-    }
-
-    .blue {
-    	background-image: url("../images/reverse.png");
-    }
-
-    .reverse {
-    	background-image: url("../images/gradient2.png");
-    }
-
-    .purple {
-    	background-image: url("../images/gradient4.png");
-    }
-
-    .yellow {
-    	background-image: url("../images/gradient1.png");
-    }
-
-    .orange {
-    	background-image: url("../images/gradient3.png");
-    }
-
-
-    .framed {
-        border: 2px solid #E1007A;
-        text-align: center;
-    }
-*/
-
 
 #main-content {
 	background: none;
@@ -78,11 +16,10 @@ ul {
 [data-simplebar-direction] .simplebar-scroll-content {
 	overflow-x: hidden;
 	/*overflow-y: hidden; *//*ONLI FOR IE9*/
-/*	overflow-y: visible;*/  /*NOT FOR IE7*/
+    /*overflow-y: visible;*/  /*NOT FOR IE7*/
 	position: relative;
 	left: 22px;
 }
-
 
 #linex-description {
 	width: 550px !important;
@@ -91,8 +28,7 @@ ul {
 
 #linex-code {
 	visibility: hidden;
-}
-
+   }
 }
 
 
@@ -111,72 +47,4 @@ ul {
 	overflow-y: auto; /*ONLI FOR IE9*/
 	position: relative;
 	left: 20px;
-
-/* }
-
- #linex-code {
-	-ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	position: absolute;
 }
-
-
-    .framed {
-        border: 2px solid #E1007A;
-        text-align: center;
-    }
-
-
-}*/
-/*end all earlier*/
-/*
-#main-content {
-	background: none;
-}
-
-#main-first {
-    font-size: 570%;
-    position: absolute;
-    top: -2%;
-    left: 0;
-}
-
-#main-second {
-    font-size: 450%;
-    position: absolute;
-    top: 10%;
-    left: 0;
-}
-
-#main-third {
-    font-size: 400%;
-    position: absolute;
-    top: 78%;
-    left: 0;
-}
-
-#packshot {
-	visibility: visible;
-	position: absolute;
-	top: 30%;
-	left: -10%;
-	width: 75%;
-	height: auto;
-}
-
-#od1kapsulednevno {
-    position: absolute;
-    right: 46px;
-    top: 37%;
-    width: 180px;
-}
-
-#pill {
-position: absolute;
-    right: 8%;
-    top: 72%;
-    width: 150px;
-}
-
-*/
-
-
