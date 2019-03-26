@@ -68,10 +68,6 @@ sup {
  /*   border: 1px solid black;*/
 }
 
-#head {
-   /* border: 1px solid black;*/
-}
-
 
 #headline {
     width: 96%;
@@ -131,44 +127,7 @@ sup {
     /*padding-top: 2px;*/
 }
 
-/*.nts > div {
-    height: 100%;
-    width: 30px;
-    display: inline;
-    border: 1px solid green;
-}*/
 
-/*.first {
-    height: 100%;
-    border: 1px solid green;
-    width: 25%;
-    display: block;
-    float: left;
-}
-
-.second {
-    height: 100%;
-    border: 1px solid green;
-    width: 25%;
-    float: left;
-}
-
-.third {
-    height: 100%;
-    border: 1px solid green;
-    width: 40%;
-    float: left;
-}
-
-.nts > div {
-    font-size: .6vw;
-    font-weight: 900;
-    line-height: 1;
-    padding: 1px;
-    margin: 1%;
-    box-sizing: border-box;
-    border: 1px solid blue;
-}*/
 
 .nts > img {
     height: 100%;
@@ -238,12 +197,17 @@ sup {
     background: white;
     color: #00457f;
     font-family: DINPro-Regular, sans-serif;
+    font-size: 14px;
     color: black;
     z-index: 100;
     text-align: justify;
     /*scroll bar*/
 
 /*scroll bar end*/
+}
+
+h3 {
+    font-size: 14px;
 }
 
 
@@ -457,7 +421,6 @@ td img {
         /*padding: 0;*/
         width: 90%;
         height: 600px; /*!!!*/
-        border: 3px solid #00457f;
         box-shadow: inset 0 0 5px 5px rgba(0,0,0,0.3);
         border-radius: 5px;
 /*        font-family: "Open Sans", sans-serif;*/
