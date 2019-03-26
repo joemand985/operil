@@ -1,31 +1,13 @@
 
 #linex-description {
 	padding-left: 20px;
-
-/* only for ie7-*/
+    /* only for ie7-*/
 	overflow-x: hidden;
 	overflow-y: scroll;
 
     }
 }
 
-/*.question-tag {
-	height: 3%;
-}
-
-#antibiotik-linex {
-    width: 38%;
-    height: auto;
-    position: absolute;
-    right: -10%;
-    top: 0;
-}
-
-#linex-note {
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
-}*/
 
 #wrapper {
 	zoom: 1;
