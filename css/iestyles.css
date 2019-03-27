@@ -21,17 +21,6 @@ ul {
 	left: 22px;
 }
 
-#linex-description {
-	width: 550px !important;
-}
-
-
-#linex-code {
-	visibility: hidden;
-   }
-}
-
-
 
 /*ONLY FOR IE9*/
 @media all and (min-width:0\0) and (min-resolution:0.001dpcm) {
